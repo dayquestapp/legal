@@ -56,10 +56,10 @@ Crashlytics data disclosure
 
 ## Anonymous usage analytics
 
-Day Quest uses Google Analytics for Firebase to understand whether the app
-is being used and which features are useful. Analytics is enabled by
-default and can be turned off at any time under Settings > Privacy >
-Anonymous Usage Analytics.
+Day Quest uses Google Analytics for Firebase to understand how people use
+the app and which features are most useful. Analytics is enabled by default
+and can be turned off at any time under Settings > Privacy > Anonymous Usage
+Analytics.
 
 Analytics may collect:
 
