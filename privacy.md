@@ -1,6 +1,6 @@
 # Day Quest - Privacy Policy
 
-**Last updated:** 6 July 2026
+**Last updated:** 23 August 2026
 
 This Privacy Policy describes how the Day Quest mobile application
 ("Day Quest", "the app", "we", "us") handles information.
@@ -8,9 +8,9 @@ This Privacy Policy describes how the Day Quest mobile application
 Day Quest is designed to keep your data on your device and in your own
 iCloud account. We do not run our own servers for your content, we do not
 sell data, we do not show ads, and we do not track you across apps or
-websites. The app does send us two narrow categories of technical data,
-described below: automatic crash reports, and feedback you choose to
-submit.
+websites. The app sends three narrow categories of data described below:
+automatic crash reports, optional anonymous usage analytics, and feedback
+you choose to submit.
 
 ## Your content stays yours
 
@@ -54,6 +54,39 @@ privacy policy (https://policies.google.com/privacy) and the Firebase
 Crashlytics data disclosure
 (https://firebase.google.com/support/privacy).
 
+## Anonymous usage analytics
+
+Day Quest uses Google Analytics for Firebase to understand whether the app
+is being used and which features are useful. Analytics is enabled by
+default and can be turned off at any time under Settings > Privacy >
+Anonymous Usage Analytics.
+
+Analytics may collect:
+
+- App opens, sessions, screen views, app version, operating system, and
+  device model
+- General country or region derived by Google from a masked IP address;
+  Day Quest never requests your device location for analytics
+- App Store purchase or subscription events, such as product ID and price
+- Fixed feature events such as creating or completing a quest, starting a
+  countdown or interval timer, and creating a journal entry
+- A randomly generated app-instance identifier used to count unique app
+  installations and sessions
+
+The fixed feature events never include quest names, notes, subtasks,
+journal text, timer names, custom stat names, dates, or other content you
+enter. Day Quest does not set a user ID, link Analytics to an account, or
+include Apple's advertising identifier (IDFA). Advertising storage,
+personalization, on-device ad conversion measurement, and ad-network
+attribution are disabled.
+
+Turning Analytics off stops further collection, clears queued analytics
+from the device, and resets the local app-instance identifier. Google
+processes Analytics data on our behalf. For details, see Google's privacy
+policy (https://policies.google.com/privacy) and its Analytics data
+collection disclosure
+(https://support.google.com/analytics/answer/11593727).
+
 ## Feedback you choose to send
 
 Day Quest has an optional in-app feedback form. Nothing is sent unless
@@ -81,15 +114,14 @@ Day Quest does not collect, store, or transmit:
 
 - Your name, email address, phone number, or any account identifier
   (Day Quest has no accounts)
-- Your location
+- Your precise location
 - Your contacts, photos, or device files
-- Usage analytics or behavioural data
 - Advertising identifiers
 
-We do not use advertising networks, analytics SDKs, or tracking of any
-kind. The only third-party services in the app are Apple (StoreKit,
-CloudKit, notifications) and Google Firebase (Crashlytics crash
-reporting and Firestore feedback storage), as described above.
+We do not use advertising networks or track anyone across apps or
+websites. The only third-party services in the app are Apple (StoreKit,
+CloudKit, notifications) and Google Firebase (Crashlytics crash reporting,
+Analytics, and Firestore feedback storage), as described above.
 
 ## Purchases and subscriptions
 
@@ -118,18 +150,20 @@ any server.
 
 Day Quest is suitable for general audiences and is not directed to
 children under 13. We do not knowingly collect personal information from
-children; the only data we receive (crash reports and voluntary
-feedback) is technical in nature and not used to identify anyone.
+children. The data we receive (crash reports, anonymous usage analytics,
+and voluntary feedback) is not used to identify anyone.
 
 ## Your rights
 
 Your quests, journal entries, and other content never reach us, so there
 is no content for us to access or hand over.
 
-Crash reports and submitted feedback do reach us. If you would like the
-feedback you submitted or the crash data associated with your
-installation deleted, contact us at the email below and we will delete
-it. Crash reports are retained by Crashlytics for 90 days. You can also
+Crash reports, anonymous analytics, and submitted feedback do reach us.
+If you would like the feedback you submitted or the crash data associated
+with your installation deleted, contact us at the email below and we will
+delete it. Crash reports are retained by Crashlytics for 90 days. You can
+stop future analytics collection from Settings > Privacy and reset the
+identifier stored on your device by turning Analytics off. You can also
 delete all local Day Quest data at any time by uninstalling the app, and
 remove synced data via iOS Settings > iCloud > Manage Storage.
 
